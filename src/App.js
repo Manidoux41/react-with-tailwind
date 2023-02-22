@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
-    <div>
-      <h1 className='text-4xl'>Mon App React</h1>
+    <div className='max-w-10/12 md:max-w-full'>
+      <Navbar />
     </div>
   )
 }
